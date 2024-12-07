@@ -1,0 +1,75 @@
+/* General */
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background-color: #0e4d64; /* Azul oscuro */
+  color: #d1e8e2; /* Blanco frío */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1b6b7a; /* Azul más claro */
+  padding: 15px 0;
+}
+
+header .menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+header .menu li {
+  margin: 0 20px;
+}
+
+header .menu a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+header .menu a:hover {
+  color: #88e3e5; /* Verde agua claro */
+}
+
+main {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.introduccion h1 {
+  font-size: 2.5rem;
+  color: #d1e8e2;
+  margin-bottom: 20px;
+}
+
+.introduccion p {
+  font-size: 1rem;
+  color: #bfe8ef;
+  margin-bottom: 30px;
+}
+
+.video h2 {
+  font-size: 1.8rem;
+  color: #d1e8e2;
+  margin-bottom: 20px;
+}
+
+.video video {
+  width: 100%;
+  max-width: 720px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  background-color: #1b6b7a;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 30px;
+}

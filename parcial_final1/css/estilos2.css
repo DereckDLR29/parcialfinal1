@@ -1,0 +1,110 @@
+/* General */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #0e4d64; /* Azul oscuro */
+    color: #ffffff; /* Blanco */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1b6b7a; /* Azul más claro */
+    padding: 15px 0;
+}
+
+header .menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+header .menu li {
+    margin: 0 20px;
+}
+
+header .menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+header .menu a:hover {
+    color: #88e3e5; /* Verde agua claro */
+}
+
+/* Sección principal */
+main {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 2.5rem;
+    color: #d1e8e2;
+    margin-bottom: 20px;
+}
+
+/* Formulario */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #1b6b7a; /* Azul más claro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #ffffff; /* Blanco */
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #d1e8e2; /* Azul claro */
+    border-radius: 5px;
+    background-color: #0e4d64; /* Azul oscuro */
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #88e3e5; /* Verde agua */
+    outline: none;
+    box-shadow: 0 0 5px rgba(136, 227, 229, 0.5);
+}
+
+form button {
+    background-color: #88e3e5; /* Verde agua claro */
+    color: #0e4d64; /* Azul oscuro */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0e4d64; /* Azul oscuro */
+    color: #88e3e5; /* Verde agua claro */
+    border: 2px solid #88e3e5;
+}
+
+/* Pie de página */
+footer {
+    background-color: #1b6b7a; /* Azul más claro */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
